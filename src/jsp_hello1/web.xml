@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<welcome-title-list>
+<welcome-file>index.html</welcome-file>
+<welcome-file>indx.htm</welcome-file>
+<welcome-file>index.jsp</welcome-file>
+<welcome-file>index.html</welcome-file>
+<welcome-file>indx.htm</welcome-file>
+<welcome-file>index.jsp</welcome-file>
+</welcome-title-list>
+
+  <context-param>
+     <param-name>id</param-name>
+     <param-value>scott</param-value>
+  </context-param>
+  
+  <context-param>
+     <param-name>pw</param-name>
+     <param-value>tiger</param-value>
+  </context-param>
+  
+  <listener>
+  <listener-class>jsp_hello1.ContextListenerEx</listener-class>
+  </listener>
